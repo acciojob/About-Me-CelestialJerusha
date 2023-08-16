@@ -1,1 +1,25 @@
 
+.container{
+    /* border: 1px solid; */
+    height: 300px;
+    display: flex;
+}
+.left{
+    /* border: 1px solid; */
+    height: 300px;
+    width: 500px;
+}
+.left > .top > img{
+    height: 150px;
+    width: 150px;
+}
+.right{
+    /* border: 1px solid; */
+    padding: 20px;
+}
+.top{
+    /* border: 1px solid; */
+    height: 150px;
+    display: flex;
+    gap: 70px;
+}

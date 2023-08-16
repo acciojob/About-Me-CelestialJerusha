@@ -1,1 +1,67 @@
 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+		
+.container{
+    /* border: 1px solid; */
+    height: 300px;
+    display: flex;
+}
+.left{
+    /* border: 1px solid; */
+    height: 300px;
+    width: 500px;
+}
+.left > .top > img{
+    height: 150px;
+    width: 150px;
+}
+.right{
+    /* border: 1px solid; */
+    padding: 20px;
+}
+.top{
+    /* border: 1px solid; */
+    height: 150px;
+    display: flex;
+    gap: 70px;
+}
+	</style>
+</head>
+<body>
+    <div class="container">
+        <div class="left">
+            <div class="top">
+                <img src="https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_1280.png" alt="image">
+                <span>
+                    <p><b>Name:</b>Celestial Jerusha</p>
+                    <p><b>Profile:</b>Software Developer</p>
+                    <p><b>Email:</b>Jerushaamuri@gmai.com</p>
+                </span>
+            </div>
+            <div class="bottom"><b>Skills:</b>
+                <P>
+                    <label for="file">HTML,CSS</label>
+                    <progress id="file" value="90" max="100"> 90% </progress>
+                </P>
+                <P>
+                    <label for="file">Java, javascript</label>
+                    <progress id="file" value="80" max="100"> 80% </progress>
+                </P>
+                
+            </div>
+        </div>
+        <div class="right">
+            <b style="text-decoration: underline blue;">About me:</b>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rem reprehenderit molestiae tempora ullam esse! Eos doloremque neque cum alias fuga cupiditate eum! Nihil ad totam, atque officia recusandae aut mollitia?
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo perspiciatis autem quis suscipit nihil totam possimus fugit! Magni quibusdam accusantium quas numquam quos ut reprehenderit consectetur, delectus maxime, quasi fugit.
+            </p>
+        </div>
+    </div>
+</body>
+</html>
